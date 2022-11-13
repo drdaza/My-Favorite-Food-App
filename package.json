@@ -1,0 +1,24 @@
+{
+  "name": "my-favorite-food-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo\\\"Error: no test specified\\\" && exit 1\"",
+    "sass-watch": "npx sass --watch src/sass/styles.scss:public/css/styles.css",
+    "watch-all": "npx sass --watch src/sass/styles.scss:public/css/styles.css src/sass/header.scss:public/css/header.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drdaza/My-Favorite-Food-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drdaza/My-Favorite-Food-App/issues"
+  },
+  "homepage": "https://github.com/drdaza/My-Favorite-Food-App#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
