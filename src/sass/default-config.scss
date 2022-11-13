@@ -1,0 +1,29 @@
+$base-color: #FCA311;
+$font-color: #14213D;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: $font-color;
+}
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 150vh;
+    background-color: $base-color;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 110vh;
+}
