@@ -1,27 +1,27 @@
 #specifications-food-section{
     display: grid;
-    grid-template: repeat(2 1fr) repeat(2 1fr);
-    grid-auto-flow: column;
+    grid-template: repeat(2, 50%)/ repeat(5, 20%);
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     border: 2px solid;
     margin: 1vh 1% 1vh 1%;
     #ingredients-square{
-        grid-area: 1 / 1 1 / 1;
+        grid-row: 1;
+        grid-column: 1;
+        grid-area: 1 / 1 / 1 / 4 ;
         border: 2px solid;
-        width: 100%;
-        height: 34vh;
-    }
-    #time-square{
-        grid-area: 2 / 2 1 / 1 ;
-        border: 2px solid;
-        width: 100%;
-        height: 34vh;
     }
     #preparation-square{
-        grid-area: 2 / 2 1 / 1 ;
+        grid-row: 2;
+        grid-column: 1;
+        grid-area: 2 / 1 / 2 / 4 ;
         border: 2px solid;
-        width: 100%;
-        height: 34vh;
     }
+    #time-square{
+        grid-row: 1;
+        grid-column: 2;
+        grid-area: 1 / 4 / 2 / 6 ;
+        border: 2px solid;
+    }
+    
 }
