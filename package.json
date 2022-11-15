@@ -6,7 +6,7 @@
   "scripts": {
     "test": "\"echo\\\"Error: no test specified\\\" && exit 1\"",
     "sass-watch": "npx sass --watch src/sass/styles.scss:public/css/styles.css",
-    "watch-all": "npx sass --watch src/sass/specifications-food-section.scss:public/css/specifications-food-section.css src/sass/header.scss:public/css/header.css src/sass/default-config.scss:public/css/default-config.css src/sass/banner-section.scss:public/css/banner-section.css"
+    "watch-all": "npx sass --watch src/sass/specifications-food-section.scss:public/css/specifications-food-section.css src/sass/header.scss:public/css/header.css src/sass/default-config.scss:public/css/default-config.css src/sass/banner-section.scss:public/css/banner-section.css src/sass/footer.scss:public/css/footer.css"
   },
   "repository": {
     "type": "git",
