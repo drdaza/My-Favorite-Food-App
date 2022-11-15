@@ -5,7 +5,7 @@ $base-color: #E5E5E5;
     border: 2px solid;
     border-radius: 20px;
     margin: 1vh 1% 1vh 1%;
-    background-color: #E5E5E5;
+    background-color: $base-color;
     #wrapper-image{
         display: flex;
         justify-content: space-evenly;
